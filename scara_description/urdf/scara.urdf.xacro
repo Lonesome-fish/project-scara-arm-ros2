@@ -124,7 +124,7 @@
     <child link="link_2"/>
     <origin xyz="-0.198822 0.006910 0.022000" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-3.14" upper="3.14" effort="10.0" velocity="1.0"/>
+    <limit lower="-2.268" upper="2.268" effort="10.0" velocity="1.0"/>
   </joint>
 
   <!-- 4. HASTE VERTICAL (cs.stl) -->
@@ -150,7 +150,7 @@
     <child link="link_z"/>
     <origin xyz="-0.248884 -0.007114 0.286000" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-0.1" upper="0.1" effort="15.0" velocity="0.5"/>
+    <limit lower="-0.1" upper="0.0" effort="15.0" velocity="0.5"/>
   </joint>
 
   <!-- 5. BASE DA GARRA (g1.stl) -->
